@@ -1,19 +1,19 @@
 <script>
-import appTitle from './components/appTitle.vue'
-import appHero from './components/appHero.vue'
+import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 
 export default {
 
   components: {
-    appTitle,
-    appHero
+    AppTitle,
+    AppHero
   }
 }
 </script>
 
 <template>
-  <appTitle />
-  <appHero />
+  <AppTitle />
+  <AppHero />
 </template>
 
 <style scoped>
